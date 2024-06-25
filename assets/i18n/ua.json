@@ -1,0 +1,20 @@
+{
+  "currentLocale": "УКР",
+  "author": "Куніцький Владислав",
+
+  "code": {
+    "side-panel": {
+      "explorer": {
+        "header": "ДОСЛІДНИК",
+        "workspace": {
+          "name": "РОБОЧИЙ ПРОСТІР",
+          "title": "КУНІЦЬКИЙ ({{ code.side-panel.explorer.workspace.name }})"
+        }
+      }
+    },
+    "notifications": {
+      "header": "ПОВІДОМЛЕННЯ",
+      "info": "Не забувайте пити воду щодня!"
+    }
+  }
+}
