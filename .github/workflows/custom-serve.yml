@@ -3,8 +3,6 @@ name: Serve on custom domain
 on:
   workflow_dispatch:
   push:
-    paths:
-      - './docs'
 
 jobs:
   deploy_build:
@@ -21,5 +19,6 @@ jobs:
         run: |
           git config --global user.name 'GH Action'
           git config --global user.email 'the.kunitskyi@gmail.com'
-          git commit -am "edit: copy CNAME in docs folder"
+          git add ./docs/CNAME
+          git commit -m "edit: copy CNAME in docs folder"
           git push
