@@ -3,6 +3,7 @@ name: Serve on custom domain
 on:
   workflow_dispatch:
   push:
+      branches: ['angular']
 
 jobs:
   deploy_build:
