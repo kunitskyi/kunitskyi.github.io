@@ -12,6 +12,22 @@
         }
       }
     },
+    "workbench": {
+      "tabs": {
+        "problems": {
+          "name": "PROBLEMS",
+          "list": {
+            "info": {
+              "cute": "We detected a computing problem on your end!"
+            }
+          },
+          "details": "More Info"
+        },
+        "terminal": {
+          "name": "TERMINAL"
+        }
+      }
+    },
     "notifications": {
       "header": "NOTIFICATIONS",
       "info": "Remember to drink water everyday!"
@@ -46,6 +62,12 @@
         "signature": "- Kunitskyi Vladyslav"
       }
     },
+    "certificates": {
+      "header": "My Certificates"
+    },
+    "terminal": {
+      "header": "TERMINAL"
+    },
     "linkHub": {
       "header": "Link Hub",
       "link": {
@@ -55,5 +77,20 @@
       }
     },
     "emailMe": "E-mail Me"
+  },
+
+  "terminal": {
+    "output": {
+      "unknownCommand": "Unknown command. Use 'help' to see a list of available commands!",
+      "help": {
+        "header": "List of Available Commands:",
+        "help": " - show list of available commands",
+        "clear": " - clear terminal",
+        "toggle-language": " - toggle language of UI",
+        "hack": " - hack this website"
+      },
+      "toggle-language": "The language of the UI will be changed!",
+      "hack": "Umm... Dude, do you really want to hack my profile?"
+    }
   }
 }
