@@ -101,6 +101,11 @@
         "notPerfect": "I know it's not perfect, but it's simple. ;)"
       }
     },
-    "ProfilePHP": {}
+    "ProfilePHP": {
+      "fullName": "Kunitskyi Vladyslav",
+      "comments": {
+        "notPerfect": "Not perfect, but not bad either. ;)"
+      }
+    }
   }
 }
